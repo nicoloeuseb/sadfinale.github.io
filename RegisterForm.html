@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<style>
+body{
+	 background-color: lightgray;
+	background-repeat: no-repeat;
+	background-size: 100% 800px;
+	margin: 0;
+	padding: 0;
+font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+#logoo{
+ padding: 15px 50px;
+
+}
+
+.logo2{
+	position: absolute;
+	 right: 82px;
+    top: 12px;
+	height: 40px;
+	width: 40px;
+	z-index: 2;
+	padding-right: 0px;
+	padding-top: 15px;	
+}
+
+.simple-form{
+	text-align: center;
+	margin: 100px 600px;
+
+}
+
+
+
+#butt{
+	background-color: #0184ff; 
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius:0.3em;
+	cursor:pointer;
+	 box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.3),
+    inset 0 10px 10px rgba(255,255,255,0.1);
+	 border:1px solid rgba(0,0,0,0.4);
+	text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+  
+}
+
+#butt:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.3),
+    inset 0 10px 10px rgba(255,255,255,0.1);
+	background-color: black;
+	
+}
+
+
+
+
+#registration{
+	width: 40%;
+	background-color:black;
+	opacity: 0.9;
+	padding: 1px 0px;
+	position: fixed;
+	right: 385px;
+	top:9px;
+	bottom: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:0.6em;
+	background-image: linear-gradient(to right, black, rgb(70, 70, 70));
+}
+#pic1{
+	position: absolute;
+	top: 130px;
+	left: 80px;
+	height: 40px;
+    width: 40px;
+}
+#pic2{
+	position: absolute;
+	top: 185px;
+	left: 80px;
+	height: 40px;
+	width: 40px;
+}
+#pic3{
+	position: absolute;
+	top: 245px;
+	left: 80px;
+	height: 40px;
+	width: 40px;
+}
+
+#pic7{
+	position: absolute;
+	top: 302px;
+	left: 80px;
+	height: 40px;
+	width: 40px;
+}
+#pic4{
+	position: absolute;
+	top: 351px;
+	left: 74px;
+	height: 50px;
+	width: 50px;
+}
+#pic5{
+	position: absolute;
+	top: 415px;
+	left: 80px;
+	height: 40px;
+	width: 40px;
+}
+#pic6{
+	position: absolute;
+	top: 475px;
+	left: 80px;
+	height: 40px;
+	width: 40px;
+}
+
+}
+#uname{
+	position: absolute;
+	top: 400px;
+	left: 80px;
+	height: 40px;
+	width: 40px;
+}
+
+#head{
+	text-align: center;
+	font-weight: bold;
+	color: #F5FFFA;
+	font-size: 50px;
+	border-bottom:3px solid lightgray;
+	
+}
+
+#button{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+	}
+#ph{
+	outline: 0px;
+	width:250px;
+	padding:10px;
+	border-radius: 5px;
+}
+</style>
+	<title>Register</title>
+	
+</head>
+
+<body>
+	<div class="simple-form">
+		<form id="registration" method="POST" action="register.php">
+			<h1 id="head"> Registration </h1>
+			
+			<img src="name1.png" alt="name" id="pic1"><input type="text" name="fname" id="button" placeholder="First Name"><br>
+			
+			<br><img src="name1.png" alt="name" id="pic2"><input type="text" name="lname" id="button" placeholder="Last Name"><br>
+				
+			<br><img src="pic3.png" alt="email" id="pic3"><input type="email" name="email" id="button" placeholder="E-mail"><br>
+			
+			<br><img src="uname.png" alt="text" id="pic7"><input type="text" name="uname" id="button" placeholder="Username"><br>
+
+			<br><img src="pass.png" alt="pass" id="pic4"><input type="password" name="pass" id="button" placeholder="Password"><br>
+				
+			<br><img src="pic5.png" alt="contact" id="pic5"><input type="number" name="num" placeholder="Enter Contact Number" id="ph"><br>
+			
+			<br><img src="address.png" alt="address" id="pic6"><input type="text" name="addr" id="button" placeholder="Address"><br>
+			
+			<br><br><input type="submit" value="Create Account" id="butt">
+			<br><br><br>
+				</form>
+			
+	</div>
+	
+</body>
+</html>
